@@ -45,6 +45,8 @@ function colorClock() {
     let month = time.getMonth().toString();
     let year = time.getFullYear().toString();
 
+    //These "if" statements check to see it the current date/time is in a standard format, which is 00:00:00
+
     if (hrs.length < 2) {
         hrs = '0' + hrs;
     }
